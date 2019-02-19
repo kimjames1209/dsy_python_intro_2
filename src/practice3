@@ -1,0 +1,7 @@
+def repeat_name_printing(fname, lname=''):
+    print_my_name(fname, lname)
+    print_my_name(fname, lname)
+def print_my_name(fname, lname=''):
+    print("My name is ", fname)
+    print("My full name is", fname, lname)
+repeat_name_printing('James', 'Kim')
